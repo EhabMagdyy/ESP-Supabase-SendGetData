@@ -10,12 +10,12 @@
 
 ### For Inserting a new row
 
-#### add this in line 53
+#### replace line 53 by this
 > ```bash
 > String endpoint = String(supabaseUrl) + "/rest/v1/" + tableName;
 > ```
 > 
-#### add this in line 62
+#### replace line 62 by this
 > ```bash
 > int httpResponseCode = http.POST(jsonString);
 > ```
